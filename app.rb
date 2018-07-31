@@ -7,14 +7,14 @@ class App < Sinatra::Base
 end
 
 class App < Sinatra::Base
-  get'/name'do
+  get '/name' do
     "My name is Jade"
 end
 
 class App < Sinatra::Base
-  get'/himetown'
+  get '/hometown' do
   "My hometown is Victoria"
 end
 
 class App < Sinatra::Base 
-  get'favorite-song
+  get '/favorite-song' do
